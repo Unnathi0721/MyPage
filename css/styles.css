@@ -1,0 +1,94 @@
+nav{
+    background-image:linear-gradient(rgb(38, 11, 73),white);
+    padding:50px;
+}
+.content form{
+    margin:100px;
+    border-radius:15px;
+    height:400px;
+    width:500px;
+    font-size: 40px;
+    border:2px solid black;
+    background-color:rgb(233, 230, 224);
+    padding:100px;
+    
+}
+input{
+    height:35px;
+    border-radius:10px;
+    font-size: 20px;
+}
+button{
+    align-content:center;
+    margin:40px 150px;
+    height:50px;
+    width:120px;
+    font-size: 20px;
+    border-radius:10px;
+    color:whitesmoke;
+    background-color: rgb(50, 145, 50);
+}
+.content{
+    margin:40px;
+}
+a{
+    text-decoration: solid;
+}
+nav a.active{
+    background-image:linear-gradient(white,rgb(55, 184, 119));
+    background-color:white;
+    color:rgb(6, 19, 44); 
+}
+nav a{
+    
+    background-image:linear-gradient(white,rgb(46, 104, 143));
+    padding:15px;
+    color:aliceblue;
+    margin:40px;
+    border-radius:8px;
+}
+nav a:active{
+    background-color:white;
+    color:cornflowerblue;
+}
+nav a:focus{
+    background-color:cornflowerblue;
+    color:white;
+}
+nav a:hover{
+    background-color:cornflowerblue;
+    color:white;
+}
+body{
+    background-image:linear-gradient(white,rgb(46, 104, 143));
+    background-image:url("C:/Users/unnat/Downloads/port.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position:fixed center;
+    
+}
+.card{
+    padding:30px;
+    margin:35px;
+    height:500px;
+    width:500px;
+    border:8px solid plum;
+    box-shadow: 20px;
+    border-width:20px;
+}
+
+.card img{
+    padding:0px 20px 10px 20px;
+    height:300px;
+    width:400px;
+    align-self: center;
+}
+.contactme{
+    position:relative fixed;
+    height:50px;
+    bottom: 50px;
+}
+.wrapper h2{
+    color:cornflowerblue;
+}
