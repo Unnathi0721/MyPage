@@ -11,7 +11,8 @@ nav{
     border:2px solid black;
     background-color:rgb(233, 230, 224);
     padding:100px;
-    
+    text-align:center;
+    background-position: center;
 }
 input{
     height:35px;
@@ -30,6 +31,10 @@ button{
 }
 .content{
     margin:40px;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
 }
 a{
     text-decoration: solid;
