@@ -32,6 +32,8 @@ button{
 .content{
     margin:40px;
     align-items:center;
+}
+.formStyle{
     display: flex;
     justify-content: center;
     margin-top: 5%;
